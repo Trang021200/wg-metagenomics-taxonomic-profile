@@ -10,7 +10,13 @@
     <loc>melbournebioinformatics.github.io/uom-varnish/LICENSE.html</loc>
   </url>
   <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/aio.html</loc>
+  </url>
+  <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/citation.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/images.html</loc>
   </url>
   <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/index.html</loc>
@@ -25,13 +31,25 @@
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/citation.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor/images.html</loc>
   </url>
   <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/index.html</loc>
   </url>
   <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/profiles.html</loc>
@@ -40,7 +58,13 @@
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/introduction.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/key-points.html</loc>
   </url>
   <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/profiles.html</loc>
