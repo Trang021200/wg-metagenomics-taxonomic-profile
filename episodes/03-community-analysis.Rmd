@@ -1,0 +1,56 @@
+---
+title: "Community analysis and comparing taxonomic profilers: practice"
+teaching: 50
+exercises: 25
+---
+
+:::::::::::::::::::::::::::::::::::::: questions
+
+- How close is each profiler to the known composition of the samples?
+- Does the choice of profiler change alpha and beta diversity results?
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+::::::::::::::::::::::::::::::::::::: objectives
+
+- Combine the profiler outputs and the ground truth in one `TreeSummarizedExperiment`
+- Explore the effect of abundance type on profiling output
+- Calculate the distance between estimated profiles and the ground truth (Bray–Curtis, rJSD, L1, L2, rAD)
+- Perform a precision–recall analysis of species detection
+- Compare alpha diversity estimates among profilers
+- Compare beta diversity among profilers with PCoA and PERMANOVA
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+```{r setup, include = FALSE}
+# FIXME: draft. Code is not evaluated until the data files are in episodes/data/.
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+::::::::::::::::::::::::::::::::::::: instructor
+
+Timing: about 15 min on loading the data and the ground-truth comparison, 30 min on alpha diversity, 30 min on beta diversity. Alternate short theory explanations of each metric with the exercises.
+
+The code is adapted from Sun *et al.* (2021), <https://doi.org/10.1038/s41592-021-01141-3>.
+
+::::::::::::::::::::::::::::::::::::::::::::::::
+
+## Load packages and data
+
+```{r packages}
+library(readr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(mia)
+library(scater)
+library(vegan)
+```
+
+
+
+::::::::::::::::::::::::::::::::::::: keypoints
+
+- FIXME: key points to be added
+
+::::::::::::::::::::::::::::::::::::::::::::::::

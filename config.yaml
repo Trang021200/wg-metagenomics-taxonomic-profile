@@ -11,21 +11,21 @@
 carpentry: 'uom'
 
 # Alt-text description of the lesson.
-carpentry_description: 'Lesson Description' # FIXME
+carpentry_description: 'In-depth statistical analysis of taxonomic and functional profiling output from nf-core pipelines (Day 1)'
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'WGS Metagenomics - Statistical Analysis of Taxonomic and Functional profiles'
 
 # Date the lesson was created ('YYYY-MM-DD', this is empty by default)
 created: ~ # FIXME
 
 # Comma-separated list of keywords for the lesson. Avoid words in the title.
-keywords: 'software, data, lesson' # FIXME
+keywords: 'taxonomy database, alpha-diversity, beta-diversity, relative abundance, differential abundance testing'
 
 # Life cycle stage of the lesson
 # refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
@@ -62,17 +62,21 @@ contact: 'fixme@fixme.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.Rmd
+episodes:
+- 01-recap.Rmd
+- 02-profilers-concepts.Rmd
+- 03-community-analysis.Rmd
+- 04-differential-abundance.Rmd
+- 05-wrap-up.Rmd
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
