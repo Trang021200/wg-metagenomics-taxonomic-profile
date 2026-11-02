@@ -128,6 +128,7 @@
           </button>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 <hr>
+<li><a class="dropdown-item" href="pipeline-to-tables.html">From pipeline output to analysis tables</a></li>
 <li><a class="dropdown-item" href="reference.html">Reference</a></li>
           </ul>
 </li>
@@ -320,6 +321,7 @@
                         <a href="../instructor/images.html">Extract All Images</a>
                       </li>
                       <hr>
+<li><a class="dropdown-item" href="pipeline-to-tables.html">From pipeline output to analysis tables</a></li>
 <li><a class="dropdown-item" href="reference.html">Reference</a></li>
                     </ul>
 </div>
@@ -369,7 +371,25 @@ any links that you are not going to use.
 comparison, 30 min on alpha diversity, 30 min on beta diversity.
 Alternate short theory explanations of each metric with the
 exercises.</p>
-<p>The code is adapted from Sun <em>et al.</em> (2021), <a href="https://doi.org/10.1038/s41592-021-01141-3" class="external-link uri">https://doi.org/10.1038/s41592-021-01141-3</a>.</p>
+<p>The comparison follows Sun <em>et al.</em> (2021), <a href="https://doi.org/10.1038/s41592-021-01141-3" class="external-link uri">https://doi.org/10.1038/s41592-021-01141-3</a>, Fig. 3–5.
+The numbers quoted in the text come from the organiser run of
+nf-core/taxprofiler 2.0.1 on the full five gut samples (see the
+instructor notes). If you regenerate the data, check that the numbers in
+the text still match.</p>
+<hr>
+<br><h3 id="03-community-analysis-headingInstructor2">
+<a href="03-community-analysis.html#headingInstructor2">Instructor Note</a><a class="anchor" aria-label="anchor" href="#03-community-analysis-headingInstructor2"></a>
+</h3>
+<p>How <code>gtdb_r220_species</code> was checked: for each of the 12
+split species, sylph reported a GTDB species that had the same
+presence/absence pattern across the five samples as the truth species,
+abundances that differed by at most 0.15 percentage points in total
+across the five samples, and ANI ≥ 97% to the GTDB representative
+genome. So the simulated genome falls within that GTDB species cluster.
+This uses sylph’s output, so it is not fully independent of sylph. The
+alternative is to look up the simulated genome accessions (from the read
+names) in the GTDB R220 metadata; see <code>data-prep/</code> in the
+lesson repository.</p>
 <hr>
 <br></section><section id="04-differential-abundance"><h2 class="section-heading"><a href="04-differential-abundance.html">Differential abundance testing</a></h2>
 <hr class="half-width"></section><section id="05-wrap-up"><h2 class="section-heading"><a href="05-wrap-up.html">Wrap up</a></h2>
@@ -422,9 +442,9 @@ exercises.</p>
   "creativeWorkStatus": "active",
   "url": "melbournebioinformatics.github.io/uom-varnish/instructor/instructor-notes.html",
   "identifier": "melbournebioinformatics.github.io/uom-varnish/instructor/instructor-notes.html",
-  "dateCreated": "2026-10-13",
-  "dateModified": "2026-10-27",
-  "datePublished": "2026-10-27"
+  "dateCreated": "2026-11-02",
+  "dateModified": "2026-11-02",
+  "datePublished": "2026-11-02"
 }
 
   </script><script>
