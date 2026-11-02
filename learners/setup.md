@@ -138,26 +138,31 @@ HOW WILL THE OUTPUT FROM DAY1 GET DOWNLOADED?
 **Please download the data required for this workshop:**
 
 1. Create a new folder for the workshop, e.g. `metagenomics_day2` on your Desktop.
-2. Download the data and unzip it into that folder.
-3. In RStudio, go to **File → New Project → Existing Directory** and select the folder. This sets your working directory so the file paths in the lesson work as written.
+2. Download the data and unzip it into that folder. You should now have a `data/` folder inside `metagenomics_day2`.
+3. In RStudio, go to **File → New Project → Existing Directory** and select the `metagenomics_day2` folder. This sets your working directory so the file paths in the lesson (`data/...`) work as written.
 
-We will use the outputs of **nf-core/taxprofiler** and **nf-core/funcprofiler** generated on Day 1, which reflect the taxonomic profiles of a subset of the original data. We also provide the full taxonomic profiles, which were generated using the same **nf-core** pipelines used in Day 1. All statistical inferences and biological interpretations in this workshop will be done for the complete profiles.
+On Day 1 you ran **nf-core/taxprofiler** on a subset of 100,000 read pairs per sample. Today we use the profiles of the **full** samples (about 10 million read pairs each), generated with the same pipeline (nf-core/taxprofiler 2.0.1), profilers and databases. All statistical inferences and biological interpretations in this workshop are made on the full profiles.
 
 You do **not** need to re-run the Day 1 pipelines. We provide the processed tables so that everyone starts Day 2 from the same point.
 
-The data folder contains:
+The `data/` folder contains one species-level table per profiler, with the same layout (`taxonomy_id`, `name`, one column per sample):
 
 | File | Description |
 |---|---|
-| `taxpasta_*.tsv` | Standardised, merged abundance tables from Taxpasta, one for each profiler (MetaPhlAn, mOTUs, Kraken2/Bracken, sylph) |
-| `*_genefamilies.tsv` | Gene family abundances in reads per kilobase (RPK), stratified by contributing species |
-| `*_pathabundance.tsv` | Metabolic pathway abundances in RPK, stratified by species contribution |
-| `*_pathcoverage.tsv` | Pathway coverage scores (0–1), indicating the fraction of reactions detected per pathway |
-| `*_profile.txt` | Species-level taxonomic abundance profile used as input to HUMAnN |
-| `ground_truth.tsv` | Known composition of each sample, used as the reference for the distance and precision/recall analyses |
-| `metadata.tsv` | Sample metadata |
+| `metaphlan.tsv` | MetaPhlAn 4.1.1: taxonomic abundance (%) |
+| `motus.tsv` | mOTUs 3.1.0: marker-gene read counts, including the `-1` (unassigned) row |
+| `bracken.tsv` | Kraken2 2.1.5 + Bracken 3.0.1: reads per species |
+| `sylph_taxonomic.tsv`, `sylph_sequence.tsv` | sylph 0.7.0 (GTDB R220): taxonomic and sequence abundance (%) |
+| `truth_taxonomic.tsv`, `truth_sequence.tsv` | Known composition of each sample (fraction of cells and fraction of reads), used as the reference for the distance and precision/recall analyses |
+| `ncbi_to_gtdb_r220.tsv` | The 95 truth species with their NCBI taxonomy ID and GTDB R220 name |
+| `metadata.tsv` | Sample metadata: number of species, read pairs, fraction of reads Kraken2 left unclassified |
 
-The data come from the benchmarking study by Sun *et al.* (2021), [*Challenges in benchmarking metagenomic profilers*](https://doi.org/10.1038/s41592-021-01141-3), *Nature Methods* 18, 618–626. The raw data are available from the authors' [Figshare project](https://figshare.com/projects/Pitfalls_and_Opportunities_in_Benchmarking_Metagenomic_Classifiers/79916).
+<!--
+FIXME: add the nf-core/funcprofiler outputs (HUMAnN *_genefamilies.tsv, *_pathabundance.tsv,
+*_pathcoverage.tsv, *_profile.txt) once they are available, if they are used on Day 2.
+-->
+
+The data come from the benchmarking study by Sun *et al.* (2021), [*Challenges in benchmarking metagenomic profilers*](https://doi.org/10.1038/s41592-021-01141-3), *Nature Methods* 18, 618–626. The raw data are available from the authors' [Figshare project](https://figshare.com/projects/Challenges_in_Benchmarking_Metagenomic_Profilers/79916).
 
 ::::
 
@@ -165,6 +170,8 @@ The data come from the benchmarking study by Sun *et al.* (2021), [*Challenges i
 
 # Attended Day 1?
 
-If you ran nf-core/taxprofiler yourself on Day 1, you are welcome to use your own outputs. They are in `results/taxpasta/` in your pipeline output directory. To make it easier to follow along with the instructors, we recommend using the provided files during the workshop.
+If you ran nf-core/taxprofiler yourself on Day 1, your own profiles are in the `metaphlan/`, `motus/`, `bracken/` and `sylph/` folders of your pipeline output directory, and the Taxpasta tables are in `taxpasta/`. They come from 1–2% of the reads, so they will miss many low-abundance species. To follow along with the instructors, please use the provided files during the workshop.
+
+To turn your own pipeline output into tables like the ones in `data/`, see [From pipeline output to analysis tables](../learners/pipeline-to-tables.md).
 
 :::

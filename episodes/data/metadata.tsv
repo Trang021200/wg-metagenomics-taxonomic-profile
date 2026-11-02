@@ -1,0 +1,6 @@
+sample_id	community	n_species_truth	read_pairs_raw	read_pairs_qc	kraken2_unclassified_pct
+Gut_sample1	simulated human gut	67	9992084	9991772	23.47
+Gut_sample2	simulated human gut	76	9996732	9996176	22.65
+Gut_sample3	simulated human gut	56	9995889	9995356	21.06
+Gut_sample4	simulated human gut	67	9991243	9990455	25.88
+Gut_sample5	simulated human gut	64	9995965	9995479	23.12
