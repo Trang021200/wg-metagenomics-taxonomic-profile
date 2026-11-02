@@ -1,0 +1,96 @@
+taxonomy_id	ncbi_name	sun2021_name	gtdb_r220_species	gtdb_r220_species_by_name	evidence
+187327	Acidaminococcus intestini	Acidaminococcus_intestini	Acidaminococcus intestini	Acidaminococcus intestini	name, confirmed by sylph detection
+446660	Adlercreutzia equolifaciens	Adlercreutzia_equolifaciens	Adlercreutzia equolifaciens	Adlercreutzia equolifaciens	name, confirmed by sylph detection
+732	Aggregatibacter aphrophilus	Aggregatibacter_aphrophilus	Aggregatibacter aphrophilus	Aggregatibacter aphrophilus	name, confirmed by sylph detection
+239935	Akkermansia muciniphila	Akkermansia_muciniphila	Akkermansia muciniphila	Akkermansia muciniphila	name, confirmed by sylph detection
+214856	Alistipes finegoldii	Alistipes_finegoldii	Alistipes finegoldii	Alistipes finegoldii	name, confirmed by sylph detection
+328814	Alistipes shahii	Alistipes_shahii	Alistipes shahii	Alistipes shahii	name, confirmed by sylph detection
+39488	Anaerobutyricum hallii	Anaerobutyricum_hallii	Anaerobutyricum hallii	Anaerobutyricum hallii	name, confirmed by sylph detection
+649756	Anaerostipes hadrus	Anaerostipes_hadrus	Anaerostipes hadrus	Anaerostipes hadrus	name, confirmed by sylph detection
+47678	Bacteroides caccae	Bacteroides_caccae	Bacteroides caccae	Bacteroides caccae	name, confirmed by sylph detection
+329854	Bacteroides intestinalis	Bacteroides_intestinalis	Bacteroides intestinalis	Bacteroides intestinalis	name, confirmed by sylph detection
+1680	Bifidobacterium adolescentis	Bifidobacterium_adolescentis	Bifidobacterium adolescentis	Bifidobacterium adolescentis	name, confirmed by sylph detection
+1683	Bifidobacterium angulatum	Bifidobacterium_angulatum	Bifidobacterium angulatum	Bifidobacterium angulatum	name, confirmed by sylph detection
+28025	Bifidobacterium animalis	Bifidobacterium_animalis	Bifidobacterium animalis	Bifidobacterium animalis	name, confirmed by sylph detection
+1681	Bifidobacterium bifidum	Bifidobacterium_bifidum	Bifidobacterium bifidum	Bifidobacterium bifidum	name, confirmed by sylph detection
+1685	Bifidobacterium breve	Bifidobacterium_breve	Bifidobacterium breve	Bifidobacterium breve	name, confirmed by sylph detection
+1689	Bifidobacterium dentium	Bifidobacterium_dentium	Bifidobacterium dentium	Bifidobacterium dentium	name, confirmed by sylph detection
+216816	Bifidobacterium longum	Bifidobacterium_longum	Bifidobacterium longum	Bifidobacterium longum	name, confirmed by sylph detection
+28026	Bifidobacterium pseudocatenulatum	Bifidobacterium_pseudocatenulatum	Bifidobacterium pseudocatenulatum	Bifidobacterium pseudocatenulatum	name, confirmed by sylph detection
+1322	Blautia hansenii	Blautia_hansenii	Blautia hansenii	Blautia hansenii	name, confirmed by sylph detection
+33035	Blautia producta	Blautia_producta	Blautia coccoides	Blautia coccoides	name, confirmed by sylph detection
+199	Campylobacter concisus	Campylobacter_concisus	Campylobacter_A concisus	Campylobacter_A concisus	name, confirmed by sylph detection
+76517	Campylobacter hominis	Campylobacter_hominis	Campylobacter_B hominis	Campylobacter_B hominis	name, confirmed by sylph detection
+827	Campylobacter ureolyticus	Campylobacter_ureolyticus	Campylobacter_B ureolyticus	Campylobacter_B ureolyticus	name, confirmed by sylph detection
+1496	Clostridioides difficile	Clostridioides_difficile	Clostridioides difficile	Clostridioides difficile	name, confirmed by sylph detection
+1491	Clostridium botulinum	Clostridium_botulinum	Clostridium cagae	Clostridium_F botulinum	genome (sylph ANI and abundance pattern)
+1502	Clostridium perfringens	Clostridium_perfringens	Sarcina perfringens	Sarcina perfringens	name, confirmed by sylph detection
+755731	Clostridium sp. BNL1100	Clostridium_sp_BNL1100	Ruminiclostridium sp000244875	Ruminiclostridium sp000244875	name, confirmed by sylph detection
+74426	Collinsella aerofaciens	Collinsella_aerofaciens	Collinsella aerofaciens	Collinsella aerofaciens	name, confirmed by sylph detection
+1747	Cutibacterium acnes	Cutibacterium_acnes	Cutibacterium acnes	Cutibacterium acnes	name, confirmed by sylph detection
+901	Desulfovibrio piger	Desulfovibrio_piger	Desulfovibrio piger_A	Desulfovibrio piger	genome (sylph ANI and abundance pattern)
+84112	Eggerthella lenta	Eggerthella_lenta	Eggerthella lenta	Eggerthella lenta	name, confirmed by sylph detection
+502558	Eggerthella sp. YY7918	Eggerthella_sp_YY7918	Enteroscipio sp000270285	Enteroscipio sp000270285	name, confirmed by sylph detection
+1352	Enterococcus faecium	Enterococcus_faecium	Enterococcus_B faecium	Enterococcus_B faecium	name, confirmed by sylph detection
+853	Faecalibacterium prausnitzii	Faecalibacterium_prausnitzii	Faecalibacterium duncaniae	Faecalibacterium prausnitzii	genome (sylph ANI and abundance pattern)
+39483	Faecalitalea cylindroides	Faecalitalea_cylindroides	Faecalitalea cylindroides	Faecalitalea cylindroides	name, confirmed by sylph detection
+1260	Finegoldia magna	Finegoldia_magna	Finegoldia magna_H	Finegoldia magna	genome (sylph ANI and abundance pattern)
+292800	Flavonifractor plautii	Flavonifractor_plautii	Flavonifractor plautii	Flavonifractor plautii	name, confirmed by sylph detection
+850	Fusobacterium mortiferum	Fusobacterium_mortiferum	Fusobacterium_A mortiferum	Fusobacterium_A mortiferum	name, confirmed by sylph detection
+859	Fusobacterium necrophorum	Fusobacterium_necrophorum	Fusobacterium_C necrophorum	Fusobacterium_C necrophorum	name, confirmed by sylph detection
+851	Fusobacterium nucleatum	Fusobacterium_nucleatum	Fusobacterium animalis	Fusobacterium nucleatum	genome (sylph ANI and abundance pattern)
+860	Fusobacterium periodonticum	Fusobacterium_periodonticum	Fusobacterium periodonticum_D	Fusobacterium periodonticum	genome (sylph ANI and abundance pattern)
+861	Fusobacterium ulcerans	Fusobacterium_ulcerans	Fusobacterium_A ulcerans	Fusobacterium_A ulcerans	name, confirmed by sylph detection
+2702	Gardnerella vaginalis	Gardnerella_vaginalis	Bifidobacterium swidsinskii	Bifidobacterium vaginale	genome (sylph ANI and abundance pattern)
+1379	Gemella haemolysans	Gemella_haemolysans	Gemella haemolysans	Gemella haemolysans	name, confirmed by sylph detection
+29391	Gemella morbillorum	Gemella_morbillorum	Gemella morbillorum	Gemella morbillorum	name, confirmed by sylph detection
+249188	Haemophilus pittmaniae	Haemophilus_pittmaniae	Haemophilus_D pittmaniae	Haemophilus_D pittmaniae	name, confirmed by sylph detection
+210	Helicobacter pylori	Helicobacter_pylori	Helicobacter pylori	Helicobacter pylori	name, confirmed by sylph detection
+154046	Hungatella hathewayi	Hungatella_hathewayi	Hungatella hathewayi	Hungatella hathewayi	name, confirmed by sylph detection
+139208	Isoptericola variabilis	Isoptericola_variabilis	Isoptericola variabilis_A	Pauljensenia variabilis	genome (sylph ANI and abundance pattern)
+39485	Lachnospira eligens	Eubacterium_eligens	Lachnospira eligens	Lachnospira eligens	name, confirmed by sylph detection
+84030	Lacrimispora saccharolytica	Clostridium_saccharolyticum	Lacrimispora saccharolytica	Lacrimispora saccharolytica	name, confirmed by sylph detection
+47715	Lacticaseibacillus rhamnosus	Lactobacillus_rhamnosus	Lacticaseibacillus rhamnosus	Lacticaseibacillus rhamnosus	name, confirmed by sylph detection
+1590	Lactiplantibacillus plantarum	Lactobacillus_plantarum	Lactiplantibacillus plantarum	Lactiplantibacillus plantarum	name, confirmed by sylph detection
+47770	Lactobacillus crispatus	Lactobacillus_crispatus	Lactobacillus crispatus	Lactobacillus crispatus	name, confirmed by sylph detection
+109790	Lactobacillus jensenii	Lactobacillus_jensenii	Lactobacillus jensenii	Lactobacillus jensenii	name, confirmed by sylph detection
+1358	Lactococcus lactis	Lactococcus_lactis	Lactococcus lactis	Lactococcus lactis	name, confirmed by sylph detection
+1382	Lancefieldella parvula	Atopobium_parvulum	Lancefieldella parvula	Lancefieldella parvula	name, confirmed by sylph detection
+47671	Lautropia mirabilis	Lautropia_mirabilis	Lautropia mirabilis	Lautropia mirabilis	name, confirmed by sylph detection
+157687	Leptotrichia wadei	Leptotrichia_wadei	Leptotrichia wadei	Leptotrichia wadei	name, confirmed by sylph detection
+1623	Ligilactobacillus ruminis	Lactobacillus_ruminis	Ligilactobacillus ruminis	Ligilactobacillus ruminis	name, confirmed by sylph detection
+1598	Limosilactobacillus reuteri	Lactobacillus_reuteri	Limosilactobacillus reuteri	Limosilactobacillus reuteri	name, confirmed by sylph detection
+907	Megasphaera elsdenii	Megasphaera_elsdenii	Megasphaera elsdenii	Megasphaera elsdenii	name, confirmed by sylph detection
+2173	Methanobrevibacter smithii	Methanobrevibacter_smithii	Methanobrevibacter_A smithii	Methanobrevibacter_A smithii	name, confirmed by sylph detection
+2317	Methanosphaera stadtmanae	Methanosphaera_stadtmanae	Methanosphaera stadtmanae	Methanosphaera stadtmanae	name, confirmed by sylph detection
+2098	Mycoplasma hominis	Mycoplasma_hominis	Metamycoplasma hominis	Metamycoplasma hominis	name, confirmed by sylph detection
+28118	Odoribacter splanchnicus	Odoribacter_splanchnicus	Odoribacter splanchnicus	Odoribacter splanchnicus	name, confirmed by sylph detection
+847	Oxalobacter formigenes	Oxalobacter_formigenes	Oxalobacter paraformigenes	Oxalobacter formigenes	genome (sylph ANI and abundance pattern)
+823	Parabacteroides distasonis	Parabacteroides_distasonis	Parabacteroides distasonis	Parabacteroides distasonis	name, confirmed by sylph detection
+454155	Paraprevotella xylaniphila	Paraprevotella_xylaniphila	Paraprevotella xylaniphila	Paraprevotella xylaniphila	name, confirmed by sylph detection
+33033	Parvimonas micra	Parvimonas_micra	Parvimonas micra	Parvimonas micra	name, confirmed by sylph detection
+89152	Peptacetobacter hiranonis	Clostridium_hiranonis	Peptacetobacter hiranonis	Peptacetobacter hiranonis	name, confirmed by sylph detection
+54005	Peptoniphilus harei	Peptoniphilus_harei	Peptoniphilus_A harei_A	Peptoniphilus_A harei	genome (sylph ANI and abundance pattern)
+626940	Phascolarctobacterium succinatutens	Phascolarctobacterium_succinatutens	Phascolarctobacterium_A succinatutens	Phascolarctobacterium_A succinatutens	name, confirmed by sylph detection
+28123	Porphyromonas asaccharolytica	Porphyromonas_asaccharolytica	Porphyromonas asaccharolytica	Porphyromonas asaccharolytica	name, confirmed by sylph detection
+28132	Prevotella melaninogenica	Prevotella_melaninogenica	Prevotella melaninogenica	Prevotella melaninogenica	name, confirmed by sylph detection
+301301	Roseburia hominis	Roseburia_hominis	Roseburia hominis	Roseburia hominis	name, confirmed by sylph detection
+166486	Roseburia intestinalis	Roseburia_intestinalis	Roseburia intestinalis	Roseburia intestinalis	name, confirmed by sylph detection
+2047	Rothia dentocariosa	Rothia_dentocariosa	Rothia dentocariosa	Rothia dentocariosa	name, confirmed by sylph detection
+43675	Rothia mucilaginosa	Rothia_mucilaginosa	Rothia sp001808955	Rothia mucilaginosa	genome (sylph ANI and abundance pattern)
+1161942	Ruminococcus champanellensis	Ruminococcus_champanellensis	Ruminococcus_F champanellensis	Ruminococcus_F champanellensis	name, confirmed by sylph detection
+1282	Staphylococcus epidermidis	Staphylococcus_epidermidis	Staphylococcus epidermidis	Staphylococcus epidermidis	name, confirmed by sylph detection
+1311	Streptococcus agalactiae	Streptococcus_agalactiae	Streptococcus agalactiae	Streptococcus agalactiae	name, confirmed by sylph detection
+1328	Streptococcus anginosus	Streptococcus_anginosus	Streptococcus anginosus	Streptococcus anginosus	name, confirmed by sylph detection
+113107	Streptococcus australis	Streptococcus_australis	Streptococcus australis	Streptococcus australis	name, confirmed by sylph detection
+45634	Streptococcus cristatus	Streptococcus_cristatus	Streptococcus cristatus_B	Streptococcus cristatus	genome (sylph ANI and abundance pattern)
+1338	Streptococcus intermedius	Streptococcus_intermedius	Streptococcus intermedius	Streptococcus intermedius	name, confirmed by sylph detection
+1309	Streptococcus mutans	Streptococcus_mutans	Streptococcus mutans	Streptococcus mutans	name, confirmed by sylph detection
+1318	Streptococcus parasanguinis	Streptococcus_parasanguinis	Streptococcus parasanguinis	Streptococcus parasanguinis	name, confirmed by sylph detection
+39778	Veillonella dispar	Veillonella_dispar	Veillonella dispar	Veillonella dispar	name, confirmed by sylph detection
+29466	Veillonella parvula	Veillonella_parvula	Veillonella parvula	Veillonella parvula	name, confirmed by sylph detection
+137591	Weissella cibaria	Weissella_cibaria	Weissella cibaria	Weissella cibaria	name, confirmed by sylph detection
+89153	[Clostridium] hylemonae	Clostridium_hylemonae	Extibacter hylemonae	Extibacter hylemonae	name, confirmed by sylph detection
+29347	[Clostridium] scindens	Clostridium_scindens	Clostridium_AP scindens	Clostridium_AP scindens	name, confirmed by sylph detection
+39491	[Eubacterium] rectale	Eubacterium_rectale	Agathobacter rectalis	Agathobacter rectalis	name, confirmed by sylph detection
+33038	[Ruminococcus] gnavus	Ruminococcus_gnavus	Ruminococcus_B gnavus	Ruminococcus_B gnavus	name, confirmed by sylph detection
